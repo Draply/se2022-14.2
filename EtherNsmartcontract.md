@@ -1,0 +1,54 @@
+## Ethereum là gì ?
+Ethereum là công nghệ nền móng cho việc xây dụng ứng dụng và tổ chức, lưu trữ tài sản, giao dịch và giao tiếp mà không bị kiểm soát bởi các cơ quan trung ương. 
+Sử dụng Ethereum không yêu cầu phải cung cấp toàn bộ thông tin cá nhân của bạn - bạn nắm quyền kiểm soát dữ liệu của mình và quyết định chia sẻ những thông tin gì
+## Khác biệt giữa ether và bitcoin :
+Cả hai đều cho phép bạn sử dụng tiền số mà không cần nhà cung cấp thanh toán hoặc ngân hàng.
+Nhưng Ethereum cho phép việc lập trình, nên bạn có thể xây dựng và triển khai các ứng dụng phi tập trung trên mạng lưới.Ethereum cho phép lập trình nghĩa là bạn có
+thể xây dựng các ứng dụng tận dụng chuỗi khối để lưu trữ dữ liệu hoặc kiểm soát những tính năng trên ứng dụng của bạn. Kết quả là một chuỗi khối mục đích chung được 
+sử dụng để lập trình bất cứ thứ gì. Vì không có giới hạn về những gì Ethereum có thể đạt được, nó cho phép những cải tiến tuyệt vời với mạng lưới.
+
+Trong khi Bitcoin chỉ là mạng lưới thanh toán, Ethereum như là một thị trường của các dịch vụ tài chính, game, mạng xã hội và các ứng dụng khác tôn trọng quyền riêng 
+tư của người dùng và chống kiểm duyệt.
+## SmartContract là gì?
+SmartContract là một đoạn mã được triển khai trong node của Blockchain, được bắt đầu bằng một thông điệp được nhúng trong transaction, cho phép giao dịch có thể thực 
+hiện các hoạt động phức tạp hơn. Có thể tạo các điều kiện hay là cần nhiều hơn một ký số để xác nhận giao dịch. EVM(Ethereum Virtual Machine) cung cấp một tầng chạy
+mã hợp đồng, một SmartContract được viết bằng ngôn ngữ lập tình bậc cao(Solidity, v.v.), xong sau đó dịch sang byte code của EVM, tiếp theo được chạy trên chính EVM.
+Mỗi node sẽ lưu trữ cùng một mã smartcontract giống nhau trên EVM.
+Hợp đồng thông minh cũng giống như một hợp đồng kỹ thuật số bị bắt buộc thực hiện bởi một bộ quy tắc cụ thể. Các quy tắc này do bộ mã máy tính xác định trước mà tất 
+cả các nút (node) trong mạng đều phải sao chép và thực thi các quy tắc đó. 
+
+Về bản chất, Smart Contract chỉ là một đoạn mã chạy trên một hệ thống phân tán (blockchain), cho phép tạo ra các giao thức Permissionless (tức là không cần trao quyền). 
+Điều đó có nghĩa là: 
+
+- Hai bên trong hợp đồng có thể đưa ra các cam kết thông qua blockchain mà không cần phải biết về danh tính hay tin tưởng lẫn nhau.
+- Họ có thể đảm bảo rằng nếu các điều kiện của hợp đồng không được thỏa mãn, hợp đồng sẽ không được thực thi.
+- Ngoài ra, việc sử dụng hợp đồng thông minh loại bỏ nhu cầu đối với các bên trung gian, giúp giảm đáng kể chi phí hoạt động.
+
+![image](https://user-images.githubusercontent.com/74479681/202911139-cb1e9957-83e3-4fde-af1b-9f4f7ea62ede.png)
+
+### Smart Contract Ethereum bao gồm một mã hợp đồng và hai khóa công khai: 
+
+Khóa công khai thứ nhất là khóa do người tạo hợp đồng cung cấp.
+Khóa còn lại đại diện cho chính hợp đồng, khóa này có vai trò như một mã định danh kỹ thuật số duy nhất cho mỗi Smart Contract.
+
+## Ưu & nhược điểm của Hợp đồng thông minh
+### Ưu điểm
+Hợp đồng thông minh là một bộ mã có thể lập trình, có khả năng tùy chỉnh cao và có thể được thiết kế theo nhiều cách khác nhau để có thể cung cấp nhiều loại dịch vụ 
+và giải pháp.
+
+Ngoài ra, hợp đồng thông minh là các chương trình phi tập trung và tự thực hiện (self-executing), chúng giúp tăng tính minh bạch và giảm chi phí hoạt động. Nếu được 
+triển khai đúng cách, chúng cũng có thể tăng hiệu quả vận hành và giảm chi phí hành chính.
+
+### Nhược điểm
+Smart Contract dựa trên hệ thống blockchain nên không thể sửa đổi và can thiệp. Một khi Smart Contract được viết ra, nếu muốn thay đổi thì chỉ có cách viết lại một 
+hợp đồng mới. Tính chất không thể thay đổi là một ưu điểm lớn, tuy nhiên trong một số trường hợp có thể là nhược điểm.
+
+## Ứng dụng của Smart Contract trong Crypto
+Về cơ bản, hầu hết các ứng dụng được cung cấp bởi các hệ thống tập trung đều có thể được thiết kế tương tự và cung cấp bởi các Smart Contract trên blockchain.
+
+Smart Contract cho phép các nhà phát triển có thể thiết kế ra nhiều trường hợp sử dụng khác nhau. Ví dụ: Ví tiền điện tử để lưu trữ Coin & Token, các sàn giao dịch 
+phi tập trung (DEX), trò chơi (gaming), NFT,...
+
+Tuy vậy nhưng chính khả năng bảo mật của một số nền tảng DAO (tổ chức tự trị phi tập trung ) khiến nó dễ bị hack và sửa đổi, điều đó gây ra thiệt hại lớn cho các sàn 
+cũng như các nhà đầu tư bị hack, điển hình trong năm 2022 vừa qua hàng loạt các vụ hack đồng loạt diễn ra (Nhưng thực sự nghi vấn sau đó liệu có chắc hẳn là bị hack hay
+do chỉ là cái cớ để các quỹ đầu tư lớn đồng loạt chốt lời) gây ảnh hưởng lớn đến toàn bộ thị trường.
