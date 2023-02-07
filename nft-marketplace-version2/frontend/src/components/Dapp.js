@@ -19,7 +19,7 @@ import { TransactionErrorMessage } from "./TransactionErrorMessage";
 import { WaitingForTransactionMessage } from "./WaitingForTransactionMessage";
 import { NoTokensMessage } from "./NoTokensMessage";
 
-// This is the Hardhat Network id that we set in our hardhat.config.js.
+// This is the Hardhat Network id that we set in our hardhat.config.ts.
 // Here's a list of network ids https://docs.metamask.io/guide/ethereum-provider.html#properties
 // to use when deploying to other networks.
 const HARDHAT_NETWORK_ID = '1337';
