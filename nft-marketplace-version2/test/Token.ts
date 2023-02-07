@@ -6,7 +6,8 @@
 // We import Chai to use its asserting functions here.
 import { expect } from"chai";
 import { loadFixture } from "@nomicfoundation/hardhat-network-helpers";
-
+// @ts-ignore
+import { ethers } from "hardhat";
 describe("Token contract", function () {
 
   async function deployTokenFixture() {
