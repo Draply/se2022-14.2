@@ -45,12 +45,27 @@ contract NFTMarketplace is ERC721URIStorage {
     function getCurrentToken() public view returns (uint256) {
         return _tokenIds.current();
     }
+    function createListedNFT(uint256 tokenId,uint256 price) private {
+        idToListedToken(tokenId) = ListedToken(
+            tokenId,
+            payable(address(this)),
+            payable(msg.sender),
+            price,
+            true
+        );
+        _transfer(msg.sender,to,tokenId);
+        
+    }
     function createNFT(string memory tokenURI, uint256 price) public payable returns (uint) {
         require(msg.value == listPrice);                                           //Check người dùng có trả đủ phí list cho NFT hay không ?                 
         require(price > 0)  ;                                                      //Giá niêm yết luôn luôn lớn hơn 0
         _tokenIds.increment();
         uint256 crTokenId = _tokenIds.current();
         _safeMint(msg.sender,crTokenId);
+
+        _setTokenURI(crTokenId,tokenURI);
+        createListedNFT(crTokenId,price);
+        return crTokenId;
     }
 
 }
