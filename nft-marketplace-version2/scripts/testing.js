@@ -18,6 +18,6 @@ let transaction = await contract.getAllNFTs()
 console.log(transaction);*/
 }
 
-getNFts();
+getNFts();kl
 
 

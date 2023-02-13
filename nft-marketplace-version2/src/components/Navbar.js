@@ -72,4 +72,4 @@ const [currAddress, updateAddress] = useState('0x');
     );
   }
 
-  export default Navbar;
+  export default Navbar;jkok
