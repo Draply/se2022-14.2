@@ -10,9 +10,13 @@ contract NFTMarketplace is ERC721URIStorage {
 
     
     using Counters for Counters.Counter;
+
     Counters.Counter private _tokenIds ;
+
     Counters.Counter private _itemsSold;
+
     address payable owner ;
+    
     uint256 listPrice = 0.1 ether;
     constructor() ERC721("Draply","DAD") {
         owner = payable(msg.sender);
