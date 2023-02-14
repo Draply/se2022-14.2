@@ -17,6 +17,10 @@ module.exports = {
     hardhat: {
       chainId: 1337
     },
+    goerli: {
+      url:"" ,
+      accounts: ""
+    }
   },
   solidity: {
     version: "0.8.4",
