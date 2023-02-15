@@ -14,13 +14,13 @@ const [currAddress, updateCurrAddress] = useState("0x");
 
 async function getNFTData(tokenId) {
     const ethers = require("ethers");
-    //After adding your Hardhat network to your metamask, this code will get providers and signers
+    //Gọi metamask 
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     const signer = provider.getSigner();
     const addr = await signer.getAddress();
     //Pull the deployed contract instance
     let contract = new ethers.Contract(MarketplaceJSON.address, MarketplaceJSON.abi, signer)
-    //create an NFT Token
+    //Tạo NFT 
     const tokenURI = await contract.tokenURI(tokenId);
     const listedToken = await contract.getListedTokenForId(tokenId);
     let meta = await axios.get(tokenURI);

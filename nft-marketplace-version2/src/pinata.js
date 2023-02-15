@@ -1,6 +1,6 @@
 //require('dotenv').config();
-const key = process.env.REACT_APP_PINATA_KEY;
-const secret = process.env.REACT_APP_PINATA_SECRET;
+const key = "2f61c9d75dff8739a13f";
+const secret = "ac702b7ec745d4fc64b0faa93822386aad56c57be50fbd1e01f7ea8f50418727";
 
 const axios = require('axios');
 const FormData = require('form-data');
@@ -69,8 +69,8 @@ export const uploadFileToIPFS = async(file) => {
             maxBodyLength: 'Infinity',
             headers: {
                 'Content-Type': `multipart/form-data; boundary=${data._boundary}`,
-                pinata_api_key: key,
-                pinata_secret_api_key: secret,
+                pinata_api_key:"2f61c9d75dff8739a13f" ,
+                pinata_secret_api_key: "ac702b7ec745d4fc64b0faa93822386aad56c57be50fbd1e01f7ea8f50418727",
             }
         })
         .then(function (response) {

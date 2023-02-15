@@ -11,7 +11,7 @@ export default function SellNFT () {
     const [message, updateMessage] = useState('');
     const location = useLocation();
 
-    //This function uploads the NFT image to IPFS
+    //up ảnh lên pinata.
     async function OnChangeFile(e) {
         var file = e.target.files[0];
         //check for file extension
@@ -55,10 +55,11 @@ export default function SellNFT () {
     async function listNFT(e) {
         e.preventDefault();
 
-        //Upload data to IPFS
+        //Đăng ảnh | 
         try {
             const metadataURL = await uploadMetadataToIPFS();
-            //After adding your Hardhat network to your metamask, this code will get providers and signers
+            //Gọi metamask.
+        
             const provider = new ethers.providers.Web3Provider(window.ethereum);
             const signer = provider.getSigner();
             updateMessage("Please wait.. uploading (upto 5 mins)")

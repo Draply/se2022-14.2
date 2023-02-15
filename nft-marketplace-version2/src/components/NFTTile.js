@@ -8,6 +8,10 @@ function NFTTile (data) {
     const newTo = {
         pathname:"/nftPage/"+data.data.tokenId
     }
+
+
+
+    
     return (
         <Link to={newTo}>
         <div className="border-2 ml-12 mt-5 mb-12 flex flex-col items-center rounded-lg w-48 md:w-72 shadow-2xl">
