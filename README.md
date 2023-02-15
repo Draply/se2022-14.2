@@ -9,7 +9,7 @@
 ### II. Thực hành ứng dụng
 * Quy trình release một mã tiền điện tử
 * Smart Contract và cách triển khai
-* Trao đổi, mua bán Token
+* Tạo web mua bán nft, token
 ## THÀNH VIÊN NHÓM
 1. Thân Lê Quang Cường - 20001894
 2. Đỗ Anh Đúc - 20001906
