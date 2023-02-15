@@ -10,4 +10,4 @@ npx hardhat run --network  localhost scripts/deploy.js
 ### Chạy trang web với câu lệnh 
 npm start 
 
-# Ý tưởng được dựa trên khóa học của Alchemy 
+#### Ý tưởng được dựa trên khóa học của Alchemy 
