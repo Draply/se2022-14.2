@@ -1,4 +1,4 @@
-## CNPM2020-14.2
+## SE2022-14.2
 # Đề tài: Tìm hiểu về blockchain, quy trình release một mã tiền điện tử dựa trên Ethereum hoặc BSC, demo thử nghiệm tạo contract của 1 đồng tiền, minting NFT và kết nối ví.
 ## NỘI DUNG THỰC HIỆN
 ### I. Lý thuyết
