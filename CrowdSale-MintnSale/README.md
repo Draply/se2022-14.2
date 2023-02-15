@@ -1,3 +1,12 @@
+# Mô tả sản phẩm : 
+Đây là một sản phẩm dựa trên ERC20, với chức năng mint và bán token cho người mua. Về cơ bản chức năng của sản phẩm giống cơ chế hoạt đông của một trang crowdfund, presale cho cộng đồng trước khi release của phần lớn các đồng tiền hiện nay.
+
+
+
+
+
+
+
 # Setup 
 ## Cài dặt các gói tập tin liên quan  
 npm i 
